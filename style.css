@@ -201,8 +201,7 @@ margin-top: 10px;
 /* Image container styling */
 .img-produk {
     flex: 1;
-    width: 20vw;
-    max-width: 20vw;
+    max-width: 40vw;
 }
 
 .img-produk img {
@@ -222,4 +221,19 @@ margin-top: 10px;
 
 .desc-title-produk p {
     margin-bottom: 15px;
+}
+@media screen and (max-width: 500px) {
+    .desc-title-produk {
+        text-align: center;
+    }
+    .produk {
+        flex-direction: column;
+    }
+    .img-produk {
+        width: 80vw;
+        max-width: 80vw;
+    }
+    .desc-title-produk {
+        max-width: 80vw;
+    }
 }
