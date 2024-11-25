@@ -1,6 +1,5 @@
 # Tugas Marketplace Akhir
 
----
 Selamat datang di source code tugas akhir marketplace semester 1.
 Disini kamuh dapat melihat source code dari tugas akhir marketplace semester 1.
 
